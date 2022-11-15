@@ -1,0 +1,33 @@
+@import "@89netram/snygg/src/index";
+
+html, body {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+canvas {
+	width: 100vw;
+	height: 100vh;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+section {
+	width: calc(250px + 2rem);
+
+	position: fixed;
+	top: calc(50vh - 300px);
+	left: 33vw;
+	transform: translate(-100%, 0px);
+
+	th {
+		font-weight: normal;
+		vertical-align: text-top;
+	}
+	td {
+		text-indent: -1ch;
+		padding-left: 1ch;
+	}
+}
